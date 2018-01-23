@@ -76,7 +76,7 @@ function removeFromCart(item) {
 
   for (i = 0; i < cart.length; i++) {
     cartIndex = cart[i];
-    if (cartIndex.hasOwnProperty(itemToRemove)) {
+    if (cartIndex.hasOwnProperty(item)) {
       itemToSplice = i;
     }
   }
